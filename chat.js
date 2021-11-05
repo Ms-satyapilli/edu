@@ -169,7 +169,7 @@ function getBotResponse(input) {
   return namer[Math.floor(Math.random() * namer.length)];
 } else if (how.includes(input)) {
   return howr[Math.floor(Math.random() * howr.length)];
-}else if(how.includes(input)){
+}else if(courses.includes(input)){
     return"B.tech,B.A,B.Com,B.Voc,B.Sc Subjects,and many more";
 } else if (love.includes(input)) {
   return lover[Math.floor(Math.random() * lover.length)];
