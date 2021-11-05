@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKNU-ED4ALL</title>
+    <link rel="stylesheet" href="stylewebsite.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="index.html">AKNU-ED4ALL</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="funzone.html">Fun Zone</a></li>
+        <li><a href="sample.html">Interview Tips</a></li>
+        <li><a href="About us.html">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="banner"></div>
+  <div class="about">
+    <div class="content">
+      <div class="title">Welcome to Adikavi Nannaya University Education for all Website.</div>
+        <h2>Website Purpose:</h2>
+        <p>While counties are at their different phases from Coronavirus Pandemic, more than 1.2 billion students in 186 countries are affected by schools and university closures. Most of the organization institutes roll out their calls from their online teaching.
+</p>
+        <p>With this sudden shift away from the classroom in many parts of the globe, some wonder whether the adoption of online learning continues to persist post-pandemic and how much such a change would affect the worldwide educational sector.
+</p>
+        <p>Even before COVID-19, there was already high growth and adoption in education technology, as the global EdTech investments reached $18.66 billion in 2019. The overall market for online education is projected to reach $350 billion by the end of 2025.
+</p>
+        <p>Whether it is a language app, virtual classrooms, video conference rooms, or online learning software, there has been a massive surge in education technology since the Coronavirus outbreak.
+</p>
+        <p>The main intention of our website is to provide an online gateway to our students, which helps them enhance their skills and knowledge.
+</p>
+        <br>
+        <h2>Target Audience:</h2>
+        <ul>
+            <br>
+            <li>Students who are preparing for their interviews,</li>
+            <li>Students who want to enhance their knowledge and explore the world of challenges in their respective fields. 
+</li>
+        </ul>
+    </div>
+  </div>
+    <br>
+     <br>
+     <br>
+  <!--CHAT BOT-->
+  <div class="chat-bot-collapsible">
+      <button id="chat-button" type="button" class="collapsible">
+          Chat with us!
+          <i id="chat-icon"  class="far fa-comment"></i>
+      </button>
+      <div class="msg-container">
+           <div class="full-chat-block">
+               <!--Message container-->
+               <div class="outer-container">
+                  <div class="chat-container">
+                      <!--messages-->
+                      <div id ="chatbox"> 
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botstartermsg" class="botText"><span>Loading...</span></p>
+                      </div>
+                      <!--user input box-->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg" placeholder="enter your query">
+                              <p></p>
+                          </div> 
+                          <div class="chat-bar-icons">
+                            <i id="chat-icon"  style="color: crimson;" class="fa fa-heart"
+                            onclick="heartButton()"></i> 
+                            <i id="chat-icon"  style="color:black;" class="fa fa-send-o"
+                            onclick="sendButton()"></i> 
+                          </div>
+                      </div>
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+                  </div>
+               </div>
+           </div>
+      </div>
+
+  </div>
+   
+   
+</body>
+<script src="main.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="responsive.js"></script>
+<script src="chat.js"></script>
+ 
+</html>
